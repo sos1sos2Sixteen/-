@@ -23,7 +23,10 @@ $src = getFileName($src);
 
 $uuid = $_GET['sid'];
 
-$db = new MyDB(DATA_BASE_FILE);
+$db = new MyDB(DATA_BAS E_FILE);
+
+
+
 
 //临时假设输入都合法
 //还要检测有没有文件!
@@ -70,4 +73,3 @@ else{
 //返回图片地址
 //echo $destination;
 $db->close();
-
